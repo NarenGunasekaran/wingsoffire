@@ -1,4 +1,4 @@
-var host = 'http://'+ window.location.hostname + ':3000/';
+var host = window.location.origin + '/';
 
 window.onload = function(e) {
      $.ajax({
