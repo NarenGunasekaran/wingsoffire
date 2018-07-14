@@ -66,6 +66,7 @@ app.get('/showDetails', function(req, res) {
             });
 });
 
-app.listen(3000, function() {
-    console.log('Example app listening on port 3000!');
+var server = app.listen(8080 || 5000, function () {
+  var port = server.address().port;
+  console.log("Express is working on port " + port);
 });
