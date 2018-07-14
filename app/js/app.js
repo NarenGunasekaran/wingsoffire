@@ -1,4 +1,4 @@
-var host = 'http://'+ window.location.hostname + ':3000/';
+var host = window.location.origin + '/';
 
 function submitValues () {
     var name = document.getElementById('userName').value;
