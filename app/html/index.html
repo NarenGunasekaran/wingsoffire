@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Test</title>
+        <style>
+            td {
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h3>Wings Of Fire</h3>
+        <form action="#" name="form_submit" id="formSubmit">
+            <table>
+                <tr>
+                    <td>
+                        <input type="button" onclick="showDetails()" value="View Details"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Name :</label></td>
+                    <td><input type="text" id="userName" name="user_name"/></td>
+                </tr>
+                <tr>
+                    <td><label>Blood Group :</label></td>
+                    <td><input type="text" id="bloodGroup" name="blood_group"/></td>
+                </tr>
+                <tr>
+                    <td><label>Age :</label></td>
+                    <td><input type="text" id="age" name="age"/></td>
+                </tr>
+                <tr>
+                    <td><label>Gender :</label></td>
+                    <td>
+                        <input type="radio" id="gender_male" name="gender" value="male" checked /> Male
+                        <input type="radio" id="gender_female" name="gender" value="female"/> Female
+                        <input type="radio" id="gender_other" name="gender" value="other"/> Other
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Mobile no :</label></td>
+                    <td><input type="text" id="mobile" name="mobile"/></td>
+                </tr>
+                <tr>
+                    <td><label>Address :</label></td>
+                    <td><textarea id="address" name="address" ></textarea></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" name="submitDetail" id="submit_detail" value="Submit" onclick="submitValues()"/>
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="../js/app.js"></script>
+    </body>
+</html>
