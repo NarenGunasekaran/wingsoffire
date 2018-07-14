@@ -66,7 +66,7 @@ app.get('/showDetails', function(req, res) {
             });
 });
 
-var server = app.listen(8080 || 5000, function () {
+var server = app.listen(3000, function () {
   var port = server.address().port;
   console.log("Express is working on port " + port);
 });
